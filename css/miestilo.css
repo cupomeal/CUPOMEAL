@@ -1,0 +1,208 @@
+@charset "utf-8";
+@font-face {
+	font-family: fa-solid-900;
+	src:url(webfonts/fa-solid-900.ttf);
+	background-color: #fff ;
+}
+
+body{
+background-color: #fff ;
+font-family: Arial, Helvetica,sans-serif;
+}
+.principal{
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+background-color: #fff ;
+}
+
+
+
+.milogo{
+	font-family: fa-solid-900;
+	color: #ac1805;
+	text-align: right;
+	font-size: 33px;
+	text-shadow: 0 5px 8px #000;
+	margin-right: 10%;
+	background-color: #fff ;
+
+}
+
+.menuprincipal{
+	
+
+
+}
+.menuprincipal nav{
+	
+	width: auto;
+	height: auto;
+	font-family: Arial;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.menuprincipal nav ul{
+	background-color: #17202A;
+	border: thin #f30;
+
+}
+.menuprincipal nav ul li{
+
+	float: left;
+	background-color: #17202A;
+	width: 163px;
+	height: 30px;
+	margin-left: 1px;
+	margin-top: 1px;
+	list-style: none;
+	text-align: center;
+	display: block;
+	padding-top: 10px;
+	
+
+}
+
+.menuprincipal nav ul li:hover{
+	background-color: #A6ACAF;
+
+}
+
+
+.menuprincipal nav ul li a{
+
+	color: #FDFEFE  ;
+	text-decoration: none;
+}
+
+.menuprincipal nav ul li a:hover{
+	color: #666;
+
+}
+
+.slider{
+
+}
+
+.contenido{
+
+float: left;
+background-color: yellow;
+width: 100%;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.contenido article{
+	}
+
+.contenido article figure{
+	
+}
+.contenido article   figure img{
+	float: left;
+	
+	margin-right: 10px;
+	margin-bottom: 5px;
+	
+
+}
+
+
+
+}
+.footer{
+	
+  position: absolute;
+  bottom: -50%;
+  width: 100%;
+  height: 60px;
+  
+	
+}
+
+footer p{
+
+	background-color: #17202A;
+	font-size: 10px;
+	color: #FDFEFE;
+	text-align: center;
+	}
+
+.row::after{
+	clear: both;
+	display: table;
+}
+/*............ estilos para elementos responsivos */
+
+[class*="col-"]{
+	float: left;
+	padding: 15px;
+
+}
+
+.col-1{ width: 8.3%;}
+.col-2{ width: 16.6%;}
+.col-3{ width:25%; }
+.col-4{ width:33.3%;}
+.col-5{ width:41.5%;}
+.col-6{ width:50%; }
+.col-7{ width: 58.1%;}
+.col-8{ width:66.6%;}
+.col-9{ width:75%; }
+.col-10{ width: 83.3%;}
+.col-11{ width:91.5%;}
+.col-12{ width:100%; }
+.menu ul{
+list-style-type: none;
+margin: 0;
+padding: |0;
+}
+.menu li{
+	padding: 8px;
+background-color: #33b5e5;
+margin-top: 7px;
+}
+
+.menu li:hover{
+
+}
+.menu li a{
+	text-decoration: none;
+}
+,menu img{
+	width: 33.3%;
+}
+
+/* para dispositivos moviles */
+
+/* para escritorio*/
+@media screen and (max-width:1280px){
+
+}
+/* para tableta*/
+@media screen and (max-width:980px){
+
+}
+/* para moviles*/
+@media screen and (max-width:768px)and (max-width:780px){
+/* si ya no necesito que aparesca el logo entojces buscamos quien lo tiene*/
+.logo h1{
+	display:none;
+}
+}
+
+/* para moviles*/
+@media screen and (max-width:768px){
+.menuprincipal{
+	display: none;
+}
+}
+
+/* para moviles*/
+@media screen and (max-width:480px){
+
+}

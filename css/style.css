@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+}
+
+/*=============================================
+			=            SLIDE              =
+			=============================================*/
+			
+			#slide{
+				position: relative;
+				margin: auto;
+				width: 80%;
+				overflow: hidden;
+				margin-left: 10%;
+
+
+			}
+			#slide ul{
+				position: relative;
+				margin: auto;
+				width: 100%;
+				height: auto;
+
+			}
+			#slide ul li{
+				float: left;
+				width: 17%;
+
+
+
+			}
+			#slide ul li img{
+				width: 100%;
+
+			}
+			#slide ul  li .caption{
+				position: relative;
+				width: 90%;
+				top: -85px;
+				text-align: center;
+				z-index: 1;
+				color: white;
+
+			}
+			#slide ul li .caption h1{
+				background: rgba(0,0,0,.5);
+				padding: 5px 0;
+			}
+			#slide ul li .caption h3{
+				background: rgba(0,0,0,.5);
+				padding-bottom: 10;
+			}
+			#indicator{
+				position: absolute;
+				width: 100%;
+				margin: auto;
+				height: 0px;
+				text-align: center;
+				top: 75%;
+
+			}
+			#indicator li{
+				display: inline-block;
+				margin: 0px 5px;
+				cursor: pointer;
+				opacity: .5;
+				color: black;
+				text-shadow: 0px 0px 5px #333;
+			}
+			
+			#left{
+				position: absolute;
+				margin-top: 15%;
+				left:-1%;
+			
+				font-size: 2em;
+				color: #1AAC99;
+				cursor: pointer;
+
+
+				
+			}
+			#right{
+				position: absolute;
+			margin-top: 15%;
+				right: 0%;
+				font-size: 2em;
+				color: #1AAC99;
+				cursor: pointer;
+				
+			}
+			/*=====  End of SLIDE  ======*/
+
+			/*=============================================
+=            LARGE DESKTOP            =
+=============================================*/
+
+@media (min-width: 1200px) {
+		
+
+
+/*=====  End   ======*/
+
+/*=============================================
+=            MEDIUM DESKTOP          =
+=============================================*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+
+
+/*=====  End  ======*/
+
+/*=============================================
+=            TABLETS           =
+=============================================*/
+
+@media (max-width: 991px) and (min-width: 768px){
+	
+
+/*=====  End   ======*/
+
+
+/*=============================================
+=            PHONES           =
+=============================================*/
+
+
+@media (max-width: 767px){
+	
+
+
+/*=====  End   ======*/
+
+
+
+
+
+
+
