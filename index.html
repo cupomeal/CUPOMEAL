@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>:: CUPOMEAL ::</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/cover.css">
+    <link rel="stylesheet" href="css/party.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Marmelad|Rancho|Bad+Script|Mali" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Bangers|Cabin+Sketch|Exo+2|Fredericka+the+Great|Hanalei+Fill|Itim|Kalam|Lobster|Luckiest+Guy|Shadows+Into+Light|Varela+Round" rel="stylesheet">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+    window.addEventListener('load', () => {
+        document.getElementById('hamburguer').addEventListener('click', () => {
+            document.getElementById('menuprincipal').classList.toggle('active');
+        });
+        document.getElementById('drop').addEventListener('click', () => {
+            document.getElementById('content').classList.toggle('active');
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <header class="d-flex flex-row justify-content-center w-100">
+        <div class="col row align-items-center">
+            <div id="hamburguer" class="d-flex d-md-none">
+                <span></span>
+            </div>
+            <img class="col-initial ml-4" src="img/logo-head.png.jpg" alt="Logo Cupomeal" >
+            
+            <div id ="drop" class="drop fas fa-sort-down fa-2x d-flex flex-row align-items-center ml-auto">
+               <!--  <div id="drop">App&nbsp </div> -->
+                <div id="content" class="content d-flex flex-column">
+                    <div class="item"><a target="" href=""></a><img src="img/playstore.png"></div>
+                        <div class="item"><a target="" href=""></a><img src="img/appstore.png"></div>
+                    </div>
+                </div>
+                <span class="far fa-user-circle fa-2x" style="padding-left: 2%;"></span>
+                <div id="menuprincipal" class="menuprincipal d-flex flex-column flex-md-row justify-content-md-end align-items-center">
+                    <a class="btn" href="index.html">Inicio</a>
+                    <a class="btn" href="nosotros.html">Nosotros</a>
+                    <a class="btn" href="productos.html">Productos</a>
+                    <a class="btn" href="clientes.html">Clientes</a>
+                    <a class="btn" href="contacto.html">Contacto</a>
+                    <a class="btn" href="acercade.html">Acerca de</a>
+                </div>
+            </div>
+    </header>
+    <div id="slide">
+        <ul class="">
+            <li> <img src="img/sld1.jpg"></li>
+            <li> <img src="img/sld2.jpg"></li>
+            <li> <img src="img/sld3.jpg">
+                                 </li>
+            <li> <img src="img/sld4.jpg">
+
+                </li>
+            <li> <img src="img/sld5.jpg"></li>
+            <li> <img src="img/sld6.jpg"></li>
+        </ul>
+    </div>
+    <div id="indicator">
+        <ol>
+            <li role-slide="1"> <span class="fas fa-star"> </span></li>
+            <li role-slide="2"> <span class="fas fa-star"></span></li>
+            <li role-slide="3"> <span class="fas fa-star"></span></li>
+            <li role-slide="4"> <span class="fas fa-star"></span></li>
+            <li role-slide="5"> <span class="fas fa-star"></span></li>
+            <li role-slide="6"> <span class="fas fa-star"></span></li>
+        </ol>
+    </div>
+    <div style="background: url(img/bk-pat.jpg); background-color: transparent;">
+        <p id="pat"> <i class="fas fa-crown"></i> PATROCINADOS <i class="fas fa-crown"></i></p>
+        <div class="pt-ini-div"><img src="img/patrocinio1.png" alt=""></div>
+            <div class="pt-ini-div"><img src="img/patrocinio2.png" alt=""></div>
+                <div class="pt-ini-div"><img src="img/patrocinio3.png" alt=""></div>
+                    <div class="pt-ini-div"><img src="img/patrocinio4.png" alt=""></div>
+                        <div class="pt-ini-div"><img src="img/patrocinio5.png" alt=""></div>
+                            <div class="pt-ini-div"><i class="fas fa-angle-double-right" style="font-size: 2em;"></i> </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div id="satisfaccion-banner"><img src="img/satisfaccion.png" alt=""></div>
+                            <div id="tarjetas">
+                                <p>Compras 100% seguras con:</p><img src="img/tarjetas.png" alt="">
+    </div>
+                                <!-- <footer>
+        <div id="footer-section">
+            <div id="wrapper">
+                <div class="footer-col">
+                    <a href="#"><img src="img/footer-logo.png" alt=" CupoMeal Logo"> </a>
+                    <br>
+                    <br>
+                    <div class="socials">
+                        <a target="_blank" href=""><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                        <a target="_blank" href=""><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a target="_blank" href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Acerca de CupoMeal</h3>
+                    <ul>
+                        <li><a href="">Novedades</a></li>
+                        <li><a href="">Contáctanos</a></li>
+                        <li><a href="">Quienes somos</a></li>
+                        <li><a href="">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Más información</h3>
+                    <ul>
+                        <li><a href="">Dueños de Restaurantes: Únanse!</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Legales</h3>
+                    <ul>
+                        <li><a href="politicas_privacidad.html">Políticas de Privacidad</a></li>
+                        <li><a href="terminos_condiciones.html">Términos y Condiciones</a></li>
+                        <li><a href="https://goo.gl/forms/xUTTJZwaxUCMJLL73" target="_blank" rel="nofollow">Libro de Reclamaciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col col-apps">
+                    <hr class="widget-div">
+                    <div class="apps-widget">
+                        <a target="_blank" href="" class="app-btn appstore"><img src="img/appstore.png" alt=""> </a>
+                        <a target="_blank" href="" class="app-btn playstore"><img src="img/playstore.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-section footer-end">
+            <div class="wrapper"> © 2018 · CUPOMEAL - Todos los derechos reservados </div>
+        </div>
+    </footer> -->
+                                <script src="js/script.js"></script>
+</body>
+
+</html>
