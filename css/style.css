@@ -146,58 +146,7 @@ header {
 
 }
 
-#slide ul li .caption h1 {
-    background: rgba(0, 0, 0, .5);
 
-}
-
-#slide ul li .caption h3 {
-    background: rgba(0, 0, 0, .5);
-
-}
-
-#indicator {
-    position: absolute;
-    width: 100%;
-    margin: auto;
-
-    text-align: center;
-
-
-}
-
-#indicator li {
-    display: inline-block;
-    margin: 0px 5px;
-    cursor: pointer;
-    opacity: .5;
-    color: black;
-    text-shadow: 0px 0px 5px #333;
-
-
-}
-
-#indicator li span {
-    /*color: #330066;*/
-    margin: auto;
-}
-
-#indicator li span:hover {
-    background-color: black;
-    /*transition: .5s;*/
-    -ms-transform: scale(1);
-    webkit-transform: scale(1);
-    transform: scale(1.5);
-    border-radius: 20%;
-    color: blue;
-
-
-
-    transition: all 0.4s ease-in-out;
-
-
-
-}
 
 #left {
     position: absolute;
@@ -327,14 +276,13 @@ div .clear {
 }
 
 footer {
-    width: 80%;
+    width: 100%;
     margin: auto;
     color: black;
     font-family: 'Arima Madurai';
     list-style: none;
     text-decoration: none;
-    /*background-color: hsla(0, 0%, 50%, 0.435);*/
-    /*background-color: red;*/
+   
 
 }
 
