@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    font-family: "Rancho";
+}
+
+.menuprincipal {
+
+    width: 100%;
+    max-width: 100%;
+    background-color: black;
+
+}
+
+.menuprincipal nav {
+    max-width: 100%;
+    margin: 0%;
+    font-family: "Mali";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.menuprincipal nav ul li {
+    float: left;
+    background-color: black;
+    width: 163px;
+    list-style: none;
+    text-align: center;
+    display: block;
+    padding: 1%;
+    border-bottom: 5px solid transparent;
+    border-bottom-color: #18ccff;
+    cursor: pointer;
+}
+
+.menuprincipal nav ul li:hover {
+    background-color: green;
+
+
+}
+
+
+.menuprincipal nav ul li a {
+
+    color: white;
+    text-decoration: none;
+}
+
+.contenido {
+    margin-top: 5%;
+
+}
+
+.acercade {
+    width: 80%;
+    margin: auto;
+
+    font-family: 'Varela Round';
+    font-size: .9em;
+    margin-top: 3%;
+    background-color: hsla(209, 100%, 59%, 0.153);
+}
+
+.acercade article {
+    padding: 2%;
+}
+
+.acercade img {
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+
+}
+
+.acercade p {
+    text-align: justify;
+
+
+}
+
+
+
+
+
+
+/*=============================================
+			=            SLIDE              =
+			=============================================*/
+
+#slide {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+    margin-left: 10%;
+    /*background-color: pink;*/
+
+}
+
+#slide ul {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+
+
+}
+
+#slide ul li {
+    float: left;
+    /*width: 17%;*/
+    list-style: none;
+
+
+
+}
+
+#slide ul li img {
+    width: 100%;
+
+}
+
+#slide ul li .caption {
+    position: relative;
+    width: 100%;
+
+    text-align: center;
+    z-index: 1;
+    color: white;
+    margin-top: -70px;
+
+}
+
+
+
+#left {
+    position: absolute;
+    margin-top: 10%;
+
+    margin-left: 5%;
+    font-size: 2.5em;
+    color: black;
+    cursor: pointer;
+
+
+
+}
+
+#right {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 93%;
+    font-size: 2.5em;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+#left:hover span a {
+    background-color: #18ccff;
+    /*transition: .5s;*/
+    /*-ms-transform: scale(1);*/
+    webkit-transform: scale(1);
+    transform: scale(1.5);
+    border-radius: 10%;
+    transition: all 0.4s ease-in-out;
+}
+
+#right:hover span a {
+    background-color: #18ccff;
+    /*transition: .5s;*/
+    /*-ms-transform: scale(1);*/
+    webkit-transform: scale(1);
+    transform: scale(1.5);
+    border-radius: 10%;
+    transition: all 0.4s ease-in-out;
+}
+
+/*=====  End of SLIDE  ======*/
+
+#patrocinados-inicio {
+
+
+    position: relative;
+    margin-top: 40%;
+    margin-left: 10%;
+    width: 80%;
+    display: table;
+    /*padding: 5%;*/
+    /*background-color: transparent;
+    background-image: url("https://i2.wp.com/www.silocreativo.com/wp-content/uploads/2015/03/fondo-geometrico-gratis.jpg?w=600&quality=100&strip=all&ssl=1") no-repeat;
+    background-position: center;*/
+
+
+
+}
+
+#pat {
+    font-family: "Fredericka the Great";
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #3c978d;
+    padding: 1%;
+}
+
+
+
+.pt-ini-div {
+
+    float: left;
+    background-color: hsla(178, 100%, 28%, 0.529);
+
+    /*border: 2px solid black;*/
+    width: auto;
+    height: auto;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 20%;
+
+}
+
+div .clear {
+    clear: both;
+}
+
+#satisfaccion-banner {
+    background-color: hsla(0, 0%, 50%, 0.435);
+    /*margin-top: 5%;*/
+    height: auto;
+    padding-top: 1%;
+    width: 80%;
+    /*margin-right: auto;*/
+    margin: auto;
+    margin-top: 5%;
+}
+
+#satisfaccion-banner img {
+    margin-left: 20%;
+}
+
+#tarjetas {
+    background-color: hsla(0, 0%, 50%, 0.435);
+    margin: auto;
+    width: 80%;
+
+}
+
+#tarjetas img {
+    margin-left: 30%;
+
+}
+
+#tarjetas p {
+    font-size: 17px;
+    color: #06f;
+    font-family: 'Itim', bold;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+
+footer {
+    width: 100%;
+    margin: auto;
+    color: black;
+    font-family: 'Arima Madurai';
+    list-style: none;
+    text-decoration: none;
+   
+
+}
+
+#footer-section {
+    width: 100%;
+    margin: auto;
+    max-width: 100%;
+
+}
+
+#wrapper {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: hsla(0, 0%, 50%, 0.435);
+    font-size: 1em;
+    text-align: center;
+    color: black;
+
+}
+
+.footer-col {
+    float: left;
+    width: 20%;
+    display: inline-block;
+
+
+}
+
+.footer-col ul li {
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+}
+
+.footer-col h3 {
+    text-align: left;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.col-first {
+
+    width: 10%;
+    position: relative;
+    min-height: 2%;
+    margin-left: 4%;
+}
+
+.col-first img {
+    display: block;
+    padding-left: 25px
+}
+
+.footer-end {
+    font-size: 14px;
+    text-align: center;
+    padding: 25px 0 20px;
+    background: black;
+    color: #9c9c9c;
+    border-bottom: none;
+}
+
+
+.footer-info {
+    background: #202121;
+    color: #6d6d6d;
+    font-size: 12px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.socials {
+    position: absolute;
+    bottom: 1%;
+    width: 10%;
+    margin-left: 5%;
+
+}
+
+.socials a {
+    color: #000;
+    padding: 0%;
+
+    margin: auto;
+}
+
+.col-apps img {
+    width: 50%;
+}
+
+/* nosotros.html */
+#descripcion {
+    position: relative;
+    display: table;
+    /*background-color: red;*/
+    width: 80%;
+    margin: auto;
+}
+
+#desc {
+    float: left;
+font-family: 'Rancho'; 
+width: 50%;
+font-size: 1.5em;
+text-align: justify;
+}
+#desc img{
+	width: 90%;
+	margin: %;
+}
+#fotos{
+	
+	
+	position: relative;
+	display: table;
+	margin: auto;
+	width: 80%;
+	
+}
+#nosotros-fotos{
+	float: left;
+	margin: 4%;
+
+	
+}
+#nosotros-fotos img{
+	width: 500px;
+	margin: 0;
+	padding: 2%;
+	right: 0;
+
+}
+#fotos p{
+ text-align: center;
+ font-family: 'Mali';
+ font-size: 1em;
+ font-weight: bold;
+}
+#fotos  i{
+	
+	width: 100%;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*=============================================
+=            LARGE DESKTOP            =
+=============================================*/
+
+@media (min-width: 1200px) {
+
+
+
+    /*=====  End   ======*/
+
+    /*=============================================
+=            MEDIUM DESKTOP          =
+=============================================*/
+    @media (max-width: 1199px) and (min-width: 992px) {
+
+
+
+        /*=====  End  ======*/
+
+        /*=============================================
+=            TABLETS           =
+=============================================*/
+
+        @media (max-width: 991px) and (min-width: 768px) {
+
+
+            /*=====  End   ======*/
+
+
+            /*=============================================
+=            PHONES           =
+=============================================*/
+
+
+            @media (max-width: 767px) {
+
+
+
+                /*=====  End   ======*/
