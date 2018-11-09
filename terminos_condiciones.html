@@ -1,40 +1,58 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>:: CUPOMEAL ::</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width-device,initial-scale-1.0,user-scalable=no">
     <link rel="stylesheet" href="css/style.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="css/fontawesome.css">
     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/cover.css">
+    <link rel="stylesheet" href="css/party.css">
     <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Marmelad|Rancho|Bad+Script|Mali" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Bangers|Cabin+Sketch|Exo+2|Fredericka+the+Great|Hanalei+Fill|Itim|Kalam|Lobster|Luckiest+Guy|Shadows+Into+Light|Varela+Round" rel="stylesheet">
     <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+    window.addEventListener('load', () => {
+        document.getElementById('hamburguer').addEventListener('click', () => {
+            document.getElementById('menuprincipal').classList.toggle('active');
+        });
+        document.getElementById('drop').addEventListener('click', () => {
+            document.getElementById('content').classList.toggle('active');
+        });
+    });
+    </script>
 </head>
 
-<body class="hidden">
-    <header>
-        <img src="img/logo-head.png.jpg" alt="Logo Cupomeal" style="text-align: left;">
-        <span class="far fa-user-circle fa-2x" style="background-color: black; color: white; float: right; list-style: none; margin-top: 2%; display: inline-block; margin-right: 4%"> </span>
-        <span class="fas fa-sort-down fa-2x" style="background-color: black; color: white; float: right; list-style: none; margin-top: 1.5%; display: inline-block; margin-right: 3%"> </span>
-        <li style="background-color: black; color: white; float: right; list-style: none;margin-top: 2%;display: inline-block; margin-right:1%; font-size: 140%; "> App </li>
+<body>
+    <header class="d-flex flex-row justify-content-center w-100">
+        <div class="col row align-items-center">
+            <div id="hamburguer" class="d-flex d-md-none">
+                <span></span>
+            </div>
+            <img class="col-initial ml-4" src="img/logo-head.png.jpg" alt="Logo Cupomeal" >
+            
+            <div id ="drop" class="drop fas fa-sort-down fa-2x d-flex flex-row align-items-center ml-auto">
+               <!--  <div id="drop">App&nbsp </div> -->
+                <div id="content" class="content d-flex flex-column">
+                    <div class="item"><a target="" href=""></a><img src="img/playstore.png"></div>
+                        <div class="item"><a target="" href=""></a><img src="img/appstore.png"></div>
+                    </div>
+                </div>
+                <span class="far fa-user-circle fa-2x" style="padding-left: 2%;"></span>
+                <div id="menuprincipal" class="menuprincipal d-flex flex-column flex-md-row justify-content-md-end align-items-center">
+                    <a class="btn" href="index.html">Inicio</a>
+                    <a class="btn" href="nosotros.html">Nosotros</a>
+                    <a class="btn" href="productos.html">Productos</a>
+                    <a class="btn" href="clientes.html">Clientes</a>
+                    <a class="btn" href="contacto.html">Contacto</a>
+                    <a class="btn" href="acercade.html">Acerca de</a>
+                </div>
+            </div>
     </header>
-    <div class="menuprincipal">
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li> <a href="">Nosotros</a> </li>
-                <li><a href="">Productos</a> </li>
-                <li><a href="">Clientes</a> </li>
-                <li><a href="">Contacto</a> </li>
-                <li><a href="acercade.html">Acerca de</a> </li>
-            </ul>
-        </nav>
-    </div>
 <div class="contenido" style="height: 1815px !important;">
     <div class="cont_text_tc pagina_editable">
         <p class="title_text_terminos">Términos y Condiciones de uso de MESA 24/7</p>

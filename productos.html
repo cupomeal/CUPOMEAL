@@ -1,83 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
-<title>:: CUPOMEAL ::- Productos</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width-device,initial-scale-1.0,user-scalable=no">
-<link rel="stylesheet" type="text/css"  href="css/miestilo.css">
-<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/fontawesome.min.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-	<script src ="js/jquery-3.3.1.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>:: CUPOMEAL ::</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/cover.css">
+    <link rel="stylesheet" href="css/party.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Marmelad|Rancho|Bad+Script|Mali" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Bangers|Cabin+Sketch|Exo+2|Fredericka+the+Great|Hanalei+Fill|Itim|Kalam|Lobster|Luckiest+Guy|Shadows+Into+Light|Varela+Round" rel="stylesheet">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+    window.addEventListener('load', () => {
+        document.getElementById('hamburguer').addEventListener('click', () => {
+            document.getElementById('menuprincipal').classList.toggle('active');
+        });
+        document.getElementById('drop').addEventListener('click', () => {
+            document.getElementById('content').classList.toggle('active');
+        });
+    });
+    </script>
 </head>
 
 <body>
-    <div class="principal" style="position: absolute;">
-	
-    <div class="milogo" ><img src="img/milogo.png" align="left"><p><p><br> Proyecto de Cupones 2.0</p></p></div>
-<br><br><br><br><br>
-<div class="menuprincipal" >
-	<nav>
-	<ul>
-	<li><a href="index2.html">Inicio</a></li>
-		<li> <a href="nosotros.html">Nosotros</a> </li>
-		<li><a href="productos.html">Productos</a> </li>
-		<li><a href="clientes.html">Clientes</a> </li>
-		<li><a href="contacto.html">Contacto</a> </li>
-
-	</ul>
-
-	</nav>
-
-	</div>
-<br><br><br>
-	
-			<!--============================
-			=            INICIO SLIDER            =
-			=============================-->
-			<div class="slider"  >
-			<div id="slide" style="position: absolute;"   >
-				<ul>
-					<li> <img src="img/sld1.jpg"></li>
-					<li> <img src="img/sld2.jpg"></li>
-					<li> <img src="img/sld3.jpg">
-						<div class="caption">
-							<h1>Lorem Ipsum</h1>
-							<h3>Lorem ipsim dolor sit amet, consectetur adipiscing elit </h3>
-							
-						</div></li>
-					<li> <img src="img/sld4.jpg">
-					<div class="caption">
-							<h1>Lorem Ipsum</h1>
-							<h3>Lorem ipsim dolor sit amet, consectetur adipiscing elit </h3>
-							
-						</div></li>
-					<li> <img src="img/sld5.jpg"></li>
-					<li> <img src="img/sld6.jpg"></li>
-				</ul>
-
-			</div>
-			<div id="left" > <span class="fas fa-chevron-left fa-2x"  ></span></div>
-			<div id="right"> <span class="fas fa-chevron-right fa-2x"></span></div>
-<br><br>
-			<div id= "indicator" style="position: absolute;">
-				<ol id="indicator">
-				<li role-slide="1"> <span class="fas fa-circle"> </span></li>
-				<li role-slide="2"> <span class="fas fa-circle"></span></li>
-				<li role-slide="3"> <span class="fas fa-circle"></span></li>
-				<li role-slide="4"> <span class="fas fa-circle"></span></li>
-				<li role-slide="5"> <span class="fas fa-circle"></span></li>
-				<li role-slide="6"> <span class="fas fa-circle"></span></li>
-				</ol>
-			</div>
-		</div>
-			
-			<!--====  End of SLIDER  ====-->
-
-
-
-	
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <header class="d-flex flex-row justify-content-center w-100">
+        <div class="col row align-items-center">
+            <div id="hamburguer" class="d-flex d-md-none">
+                <span></span>
+            </div>
+            <img class="col-initial ml-4" src="img/logo-head.png.jpg" alt="Logo Cupomeal" >
+            
+            <div id ="drop" class="drop fas fa-sort-down fa-2x d-flex flex-row align-items-center ml-auto">
+               <!--  <div id="drop">App&nbsp </div> -->
+                <div id="content" class="content d-flex flex-column">
+                    <div class="item"><a target="" href=""></a><img src="img/playstore.png"></div>
+                        <div class="item"><a target="" href=""></a><img src="img/appstore.png"></div>
+                    </div>
+                </div>
+                <span class="far fa-user-circle fa-2x" style="padding-left: 2%;"></span>
+                <div id="menuprincipal" class="menuprincipal d-flex flex-column flex-md-row justify-content-md-end align-items-center">
+                    <a class="btn" href="index.html">Inicio</a>
+                    <a class="btn" href="nosotros.html">Nosotros</a>
+                    <a class="btn" href="productos.html">Productos</a>
+                    <a class="btn" href="clientes.html">Clientes</a>
+                    <a class="btn" href="contacto.html">Contacto</a>
+                    <a class="btn" href="acercade.html">Acerca de</a>
+                </div>
+            </div>
+    </header>
 
 	<div class="contenido" style="position: absolute; text-align: justify;" >
 	<div class="row">
